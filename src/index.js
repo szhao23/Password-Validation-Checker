@@ -1,7 +1,7 @@
 // Select DOM elements
 const passwordInput = document.querySelector(".pass-field input");
 const eyeIcon = document.querySelector(".pass-field i");
-const requirementList = document.querySelector(".requirement-list li");
+const requirementList = document.querySelectorAll(".requirement-list li");
 
 // Array of objects containing password requirements with corresponding regular expressions and index of the requirement list items
 const requirements = [
